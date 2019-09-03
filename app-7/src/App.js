@@ -14,7 +14,7 @@ class App extends Component {
   }
 
 
-  handleAddTask  (task)  {
+  handleAddTask (task)  {
     this.setState ({
       list: [...this.state.list, task],
     })
